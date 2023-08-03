@@ -10,6 +10,7 @@ namespace Regexs
             ValidatePincode validatePincode = new ValidatePincode();
             validatePincode.UC1_Validate("400088");
             validatePincode.UC2_Validate("D600088");
+            validatePincode.UC3_Validate("400088D");
         }
     }
 }
